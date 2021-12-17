@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ss-crud-users" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\SS\\CRUD_Users\\Backend\\Backend\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Backend.AplicationDbContext" description="" value="Data Source=tcp:ss-servidor-users.database.windows.net,1433;Initial Catalog=Backend_db;User Id=ssuarez@ss-servidor-users;Password=Andresito5" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\SS\\CRUD_Users\\Backend\\Backend\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\Backend\.AplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

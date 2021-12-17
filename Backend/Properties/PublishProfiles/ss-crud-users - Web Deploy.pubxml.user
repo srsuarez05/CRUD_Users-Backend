@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA82aGGWjYYUiC3yKbQXnM6wAAAAACAAAAAAADZgAAwAAAABAAAACkW/b21HNXNbvx4JUOhfojAAAAAASAAACgAAAAEAAAABi1ZcWU4dz1xM/JfMEYeV6AAAAA/wnJWHq+d/ecVFOqTBdEy0G71tk3upfE/l68c7ZBZwN8qdyw6DEXa/lb8qPwK71IYfnBKz1MsVxM9e83GlgjwxGSwoPSP044Iu7gYNADsuVRVjOhgJr2nedq9RZba+mriaxB1c+t9gCoGuNsNW0lWyDdIO848RxgNPUvMgkp4+wUAAAAfq/nc/eRdcRWtDFQqlR2/Rl52ss=</EncryptedPassword>
+    <History>True|2021-12-03T04:34:11.4435548Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevConnection">
+      <Value>Data Source=tcp:ss-servidor-users.database.windows.net,1433%3bInitial Catalog=Backend_db%3bUser Id=ssuarez%40ss-servidor-users%3bPassword=Andresito5</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Backend.AplicationDbContext">
+      <Value>Data Source=tcp:ss-servidor-users.database.windows.net,1433%3bInitial Catalog=Backend_db%3bUser Id=ssuarez%40ss-servidor-users%3bPassword=Andresito5</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
